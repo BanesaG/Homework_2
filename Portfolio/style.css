@@ -1,0 +1,120 @@
+body {
+    background-image: url("bckgrnd.png");
+    background-repeat: repeat;
+    background-position: viewport; 
+    background-attachment: fixed;
+}
+
+section {
+  background-color: #969696;
+  opacity: 60%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight:medium;
+  font-size:24px;
+  color: black;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size:20px;
+  font-weight:bold;
+  color: black;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: light;
+  font-size:20px;
+  color: white
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size:14px;
+}
+
+img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content:"front-end.png"; "html+css+js.png"; "developer.png";
+  clear: both;
+  display: table;
+}
+
+.round {
+  border-radius: 100px;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  border: 3px #2c5fa8;
+}
+
+
+.round img {
+  display: block;
+  float: left;
+  border-radius: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  border: 3px #2c5fa8;
+}
+
+
+.background2 {
+  background-color: #969696, rgb(150,150,150,0.6); 
+  opacity: 60%;
+  width: 100%;
+  border: none;
+  padding: 25x;
+  margin: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: black
+}
+
+.class {
+  background-color: #969696;
+  background-repeat: repeat;
+  background-size: 50%;
+}
+
+@media only screen and (max-width: 600px){
+
+}
+
+main{
+  display: grid;
+  height: 100%;
+  grid-template-rows: 1;
+  grid-template-columns: 1;
+}
+
+div {
+  float: left;
+}
